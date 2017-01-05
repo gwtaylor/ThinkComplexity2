@@ -33,3 +33,7 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
+
+# gwt
+.ipynb_checkpoints/
+chap*.pdf
