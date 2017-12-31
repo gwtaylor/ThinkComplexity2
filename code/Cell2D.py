@@ -56,7 +56,7 @@ class Cell2DViewer:
     """Generates an animated view of an array image."""
 
     cmap = plt.get_cmap('Greens')
-    options = dict(interpolation='none', alpha=0.8,
+    options = dict(interpolation='nearest', alpha=0.8,
                    vmin=0, vmax=1)
 
     def __init__(self, viewee):
@@ -136,6 +136,3 @@ class Cell2DViewer:
         a = self.viewee.array
         self.im.set_array(a)
         return (self.im,)
-
-
-
