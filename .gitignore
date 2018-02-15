@@ -35,3 +35,21 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
+
+# latex temp files
+*.aux
+*.fdb_latexmk
+*.fls
+*.idx
+*.ilg
+*.ind
+*.log
+*.out
+*.synctex.gz
+*.toc
+
+# book main file
+book.pdf
+
+# ipynb checkpoints
+.ipynb_checkpoints
